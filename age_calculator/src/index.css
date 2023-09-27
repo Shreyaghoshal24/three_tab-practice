@@ -1,0 +1,130 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+body,
+h1,
+h2,
+h3,
+p,
+ul,
+li,
+table {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+/* .btn{
+  border: 5px solid yellowgreen;
+  width: 100px;
+  font-size: 20px;
+} */
+
+nav {
+  background-color: #333;
+  color: #fff;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  padding: 1rem 0;
+}
+
+nav ul li {
+  margin: 0 1rem;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.agecalculator{
+  margin: 5% auto auto 40%;
+  font-size: large;
+  width: auto;
+}
+
+input[type="date"],
+input[type = "text"] {
+  padding: 8px;
+  border: none; 
+  border-bottom: 4px solid #007BFF; 
+  border-radius: 5%;
+  font-size: 25px;
+  width: 300px;
+  height: 40px;
+  margin: 0 auto;
+  outline: none;
+  cursor: pointer;
+}
+
+h2{
+  margin: 0px auto 20px auto;
+}
+
+.sdate{
+  margin-bottom: 7%;
+}
+
+.renderData{
+  margin: 20px;
+  font-size: 25px;
+  font-weight: 400;
+}
+
+button{
+  margin-left: 10px;
+  background-color: purple;
+  border-radius: 5%;
+  border: 2px solid black;
+  padding: 1%;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+}
+
+table th,
+table td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+table th {
+  background-color: #333;
+  color: #fff;
+}
+
+.childButton{
+  background-color: green;
+  border: 2px solid blue;
+  border-radius: 10%;
+  padding: 0.75%;
+}
+
+.childcomponent{
+  margin-top: 5%;
+  font-size: larger;
+  font-weight: 400;
+}
