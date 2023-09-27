@@ -4,8 +4,8 @@ First tab is an Age Calculator, second tab where we pass Data from child to pare
 ## Prequisites
 Before you get started, ensure you have the following tools installed on your machine:
 
--Node.js
--npm
+- Node.js
+- npm
 
 ## Getting started
 1. Clone this repository to your local machine: https://github.com/Shreyaghoshal24/three_tab-practice.git
