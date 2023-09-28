@@ -10,16 +10,16 @@ Before you get started, ensure you have the following tools installed on your ma
 ## Getting started
 1. Clone this repository to your local machine: https://github.com/Shreyaghoshal24/three_tab-practice.git
 
-2. Change into the project directory: cd age_calculator
+2. Change into the project directory: cd client
 
 ### For Frontend
-Change into the age_calculator directory: cd age_calculator
+Change into the age_calculator directory: cd client
 
 Install frontend dependencies: npm i --save
 
-Start the frontend/ age_calculator: npm start
+Start the frontend/ client: npm start
 
-The frontend/age_calculator directory will be accessible at http://localhost:3000.
+The frontend/client directory will be accessible at http://localhost:3000.
 
 ### For Backend
 Change into the server directory: cd server
