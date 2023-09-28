@@ -19,9 +19,6 @@ const Header = () => {
         <li>
           <Link to="/table">Table</Link>
         </li>
-        {/* <li>
-          <button className={`btn ${theme === 'dark' ? 'btn-light' : 'btn-dark'}`} onClick={handleOnClick}>{theme === "dark" ? "Light" : "Dark"}</button>
-        </li> */}
         <li>
           <p onClick={handleOnClick}>
           {theme === "dark" ? <ToggleOnOutlined style={{fontSize:'3.5rem', cursor:'pointer'}}/> : <ToggleOffOutlined style={{fontSize:'3.5rem', cursor:'pointer'}} />}   

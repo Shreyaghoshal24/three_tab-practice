@@ -5,9 +5,11 @@ import AgeCalculator from "./tabs/Calculator";
 import DataPassing from "./tabs/DataPassing";
 import Table from "./tabs/AgeTable";
 import { ThemeContext,themes } from "./context/ThemeContext";
+import { Example } from "./components/Example";
 
 function App() {
   const [theme, setTheme] = useState(themes.light);
+  
 
   const handleOnClick = () =>{
     theme === themes.light ? setTheme(themes.dark) : setTheme(themes.light);
@@ -48,6 +50,7 @@ function App() {
           <Route path="/table" element={<Table />} />
         </Routes>
       </Router>
+      <Example data={[1,5,3,2,7,3.,9]} />
       </ThemeContext.Provider>
   );
 }

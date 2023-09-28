@@ -5,6 +5,7 @@ const Calculator = () => {
   const [birthdate1, setBirthdate1] = useState('');
   const [birthdate2, setBirthdate2] = useState('');
   const [age, setAge] = useState(null);
+  const [validationMessage, setValidationMessage] = useState('');
 
   const calculateAge = () => {
     if (birthdate1 && birthdate2) {
@@ -36,8 +37,10 @@ const Calculator = () => {
         hours,
         minutes,
       });
+      setValidationMessage('');
     } else {
       setAge(null);
+      setValidationMessage('Please enter both start and end dates.');
     }
   };
 
@@ -86,6 +89,7 @@ const Calculator = () => {
         />
       </div>
       <button onClick={calculateAge}>Calculate Age</button>
+      {validationMessage && <p style={{ color: 'red' }}>{validationMessage}</p>}
       {renderAge()}
     </div>
   );
